@@ -1,0 +1,85 @@
+@media only screen and (max-width: 1000px){
+	.container{
+		max-width: 800px;
+	}
+	#company{
+		width: 100%;
+		text-align: center;
+	}
+	#menu{
+		text-align: center;
+		&.active{
+		    border: 0 !important;
+		    box-shadow: none !important;
+		    position: relative !important;
+		}
+		.menu{
+			float: none !important;
+			li{
+				line-height: 66px !important;
+			}
+			li:last-child{
+				padding: 0 20px !important;
+			}
+		}
+	}
+	#content{
+		.content-top{
+			height: 127px;
+			h1{
+				margin-top: 55px;
+			}
+		}
+	}	
+}
+
+@media only screen and (max-width: 760px){
+	.container{
+		max-width: 500px;
+	}
+	.header-top{
+		text-align: center;
+		.contact{
+			float: none !important;
+			display: inline-block !important;
+		}
+	}
+
+	.submenu{
+		display: block !important;
+	}
+	#menu{
+		padding: 20px 0 !important;
+		.menu{
+			display: none;
+			width: 100%;
+			margin-top: -2px !important;
+			border: 1px solid #efefef;
+			li{
+				width: 100%;
+			    line-height: 46px !important;
+			    border-top: 1px solid #efefef;
+			}
+		}
+	}
+	#content{
+		.content-top{
+			height: 97px;
+			h1{
+				margin-top: 38px;
+			}
+		}
+	}
+	.footer-top{
+		li{
+			float: left;
+			width: 100%;
+		}
+	}
+}
+
+@media only screen and (max-width : 579px){
+	.container{
+		max-width: 350px;
+	}
+}
